@@ -7,25 +7,32 @@ h1 {
     text-align: center;
     
 }
-
-
 article{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    display: inline-block;
-    justify-content: center;
-    /* margin-right: 1200px;
-    margin-left: 100px; */
-    text-align: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-/* .projects{
-    flex-wrap: wrap;
+#list{
+    text-align: start;
+}
+
+.aboutMe{
+    display: inline-block;
+    justify-content: flex-start;
+    width: 30%;
+    text-align: center;
+    margin-left: 100px;
+    border-style: double;
+}
+
+.projects{
     justify-content: center;
-    margin-left: 900px;
-    margin-right: 100px;
-    border-style: solid;
-} */
+    width: 55%;
+    border-style: double;
+}
 
 #img1{
     padding: 20px; 
