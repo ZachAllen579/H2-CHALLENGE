@@ -33,7 +33,6 @@ nav ul li{
 
 .aboutMe{
     display: inline-block;
-    justify-content: flex-start;
     width: 30%;
     text-align: center;
     margin-left: 0px;
@@ -45,9 +44,10 @@ nav ul li{
 }
 
 .projects{
-    width: 53%;
+    width: 59%;
     border-style: double;
     text-align: center;
+    min-width: 350px;
 }
 
 #img1{
@@ -86,12 +86,7 @@ nav ul li{
 
     .aboutMe{
         justify-content: center;
-        width: 53%;
+        width: 59%;
         margin-top: 5%;
     }
-
-}
-
-@media screen and (max-width: 576px) {
-
 }
